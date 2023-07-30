@@ -1,0 +1,194 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	color: whitesmoke;
+}
+body{
+	font-weight: bold;
+	font-size: 30px;
+	background-image: url(https://wallpaperaccess.com/full/1092666.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: skyblue;
+}
+.header{
+	background-color: black;
+	line-height: 80px;
+	position: sticky;
+	width: 100%;
+	top: 0;
+	z-index: 2;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;	
+}
+div{
+	display: inline-flex;
+   justify-content: space-around;	
+	width: 200px;
+}
+.header a{
+	text-decoration: none;
+}
+.navigation{
+	
+    text-align: center;
+}
+.navigation ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;    
+}
+.navigation ul li{
+	margin: 10px;
+	padding: 10px;
+	
+}
+.navigation a{
+	text-decoration: none;
+}
+
+.home,.navigation ul li:hover{
+/*	background-color: black;*/
+	border-bottom: 2px solid whitesmoke;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;	
+	cursor: pointer;
+}
+.navigation ul li:hover a{
+	color: whitesmoke;
+}
+.Dropdown_list{
+	display: none;
+}
+.Dropdown_list {
+	z-index: 1;
+}
+.navigation ul li:hover .Dropdown_list{
+	display: block;
+	background-color: black;
+	border-radius: 10px;
+	position: absolute;
+    margin-top: 12px;
+}
+.navigation ul li:hover .Dropdown_list ul{
+   display: block;
+}
+.navigation ul li:hover .Dropdown_list ul li:hover{
+	background-color: black;
+}
+.navigation ul li:hover .Dropdown_list ul li:hover a{
+	color: red;
+}
+.twitter a i:hover{
+	color: #00ACEE;
+}
+.facebook a i:hover{
+	color: #4267B2;
+}
+.instagram a i:hover{
+	color: #d62976;
+}
+.Login:hover a{
+	color: green;
+}
+.linkedin a i:hover{
+	color:#4267B2;
+}
+.Mountaingoat:hover a{
+	color: red;
+}
+.navigation ul li i{
+	margin: 0 8px 0px 8px;
+}
+input[type="search"]{
+	padding: 8px;
+	margin-left: -15px;
+	color: black;
+}
+.search_bar a i{
+	margin-left: 5px;
+}
+.search_bar a i:hover{
+	color:#c6db21;
+}
+.slider{
+	overflow: hidden;
+}
+
+.slider figure{
+	width: 500%;
+	position: relative;
+	margin: 0;
+	left: 0;
+	animation: rahul 10s infinite linear;
+}
+@keyframes rahul{
+	0%{left:0 }
+	20%{left:0 }
+	25%{left: -100%}
+	45%{left: -100%}
+	50%{left: -200%}
+	70%{left: -200%}
+	75%{left: -300%}
+	95%{left: -300%}
+	100%{left: -400%}
+}
+ figure img{
+	width: 20%;
+	height: 400px;
+	border-radius: 10px;
+	float: left;
+   
+}
+.brand{
+	overflow: hidden;
+}
+.brand figure{
+	width: 250%;
+	position: relative;
+	margin: 15px 5px 120px 15px;
+	padding: 5px;
+	right: 10px;
+
+}
+.brand figure forest{
+  float: left;
+}
+.para{
+	margin-top: -80px;
+	margin-bottom: 80px;
+}
+footer{
+	height: 300px;
+	background-color: black;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+}
+footer ul{ 	
+	list-style: none;
+}
+footer ul li{
+	margin: 20px;
+}
+footer ul a{
+	text-decoration: none;
+}
+footer ul a:hover{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
